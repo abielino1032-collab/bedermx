@@ -1,0 +1,6 @@
+{
+  "name": "Colchones BEDER — Fabricantes Directos en Puebla",
+  "description": "Colchones de calidad superior fabricados en Puebla, México con tecnología Bedertech y resortes Bonell Max. Descubre nuestras líneas Estándar, Hotelero, Premium y Luxury con venta directa de fábrica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

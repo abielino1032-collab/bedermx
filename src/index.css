@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Figtree", system-ui, sans-serif;
+  --font-body: "Figtree", system-ui, sans-serif;
+  --font-sans: "Figtree", system-ui, sans-serif;
+  --color-beder-navy: #060c2c;
+  --color-beder-navy2: #27457a;
+  --color-beder-steel: #8fbfe0;
+  --color-beder-mint: #cbe9e5;
+  --color-beder-lav: #a9a6cf;
+  --color-beder-soft: #e4ecf6;
+  --color-beder-mist: #f4f6fa;
+  --color-beder-cream: #fbf8f3;
+  --color-beder-accent: #e9a23b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, button, input, select, textarea {
+  font-family: "Figtree", system-ui, sans-serif;
+}
+
+body {
+  color: #18202c;
+}
+
+button {
+  color: inherit;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: "Figtree", system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
